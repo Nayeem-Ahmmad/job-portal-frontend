@@ -70,17 +70,6 @@ npm install
 npm run dev
 ```
 
-## 📸 Screenshots
-
-### Home Page
-![Home](screenshots/home.png)
-
-### Jobs Page
-![Jobs](screenshots/jobs.png)
-
-### Seeker Dashboard
-![Dashboard](screenshots/dashboard.png)
-
 ## 👨‍💻 Developer
 **Nayeem Ahmmad**
 - GitHub: [@Nayeem-Ahmmad](https://github.com/Nayeem-Ahmmad)
