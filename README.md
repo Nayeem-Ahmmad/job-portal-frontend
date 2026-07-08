@@ -1,16 +1,87 @@
-# React + Vite
+# 🏢 Job Portal BD — Full Stack Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A complete job portal web application built with Django REST Framework and React.js
 
-Currently, two official plugins are available:
+## 🔗 Links
+- **Backend:** https://github.com/Nayeem-Ahmmad/job_portal
+- **Frontend:** https://github.com/Nayeem-Ahmmad/job-portal-frontend
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
 
-## React Compiler
+### Backend
+- Python, Django, Django REST Framework
+- JWT Authentication (SimpleJWT)
+- Celery + Redis (Background tasks)
+- SQLite (Development)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
+- React.js + Vite
+- Tailwind CSS
+- Axios
+- React Router DOM
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Authentication
+- JWT-based login/logout
+- Role-based access (Job Seeker, Employer, Admin)
+- Auto token refresh
+
+### Job Seeker
+- Profile management (bio, skills, education, experience)
+- Job search with filters (title, location, salary, type)
+- One-click job apply with cover letter
+- Application tracking (pending/accepted/rejected)
+- Save/bookmark jobs
+
+### Employer
+- Company profile management
+- Post, update, delete jobs
+- View applicants with cover letters
+- Accept/reject applications
+
+### Admin
+- Dashboard with statistics
+- Manage users, companies, jobs
+- View all applications
+
+### Notifications
+- Real-time notifications via Django Signals
+- Mark as read / Mark all as read
+
+## 🚀 Installation
+
+### Backend Setup
+```bash
+git clone https://github.com/Nayeem-Ahmmad/job_portal.git
+cd job_portal
+python -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+```
+
+### Frontend Setup
+```bash
+git clone https://github.com/Nayeem-Ahmmad/job-portal-frontend.git
+cd job-portal-frontend
+npm install
+npm run dev
+```
+
+## 📸 Screenshots
+
+### Home Page
+![Home](screenshots/home.png)
+
+### Jobs Page
+![Jobs](screenshots/jobs.png)
+
+### Seeker Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+## 👨‍💻 Developer
+**Nayeem Ahmmad**
+- GitHub: [@Nayeem-Ahmmad](https://github.com/Nayeem-Ahmmad)
+- Codeforces: [nayeem17](https://codeforces.com/profile/nayeem17)
