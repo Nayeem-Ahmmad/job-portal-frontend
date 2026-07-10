@@ -69,7 +69,6 @@ cd job-portal-frontend
 npm install
 npm run dev
 ```
-
 ## 👨‍💻 Developer
 **Nayeem Ahmmad**
 - GitHub: [@Nayeem-Ahmmad](https://github.com/Nayeem-Ahmmad)
