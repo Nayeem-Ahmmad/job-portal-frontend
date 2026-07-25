@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 import Navbar from './components/Navbar'
 
 import LoginPage from './pages/LoginPage'
@@ -26,6 +27,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Navbar />
+      <SpeedInsights />
       <Routes>
         {/* Public */}
         <Route path="/login" element={<LoginPage />} />
